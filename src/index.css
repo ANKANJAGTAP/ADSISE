@@ -1,0 +1,13 @@
+/* ============================================================
+   index.css — Global Base Styles
+   ============================================================
+   Minimal global resets. Component-specific styles are in
+   App.css. This file only sets up foundational defaults.
+   ============================================================ */
+
+/* Ensure the root element stretches to fill viewport */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

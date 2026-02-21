@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- PWA: Viewport meta for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- PWA: Theme color must match manifest.json theme_color -->
+    <meta name="theme-color" content="#009688" />
+
+    <!-- PWA: Description for search engines and PWA install prompts -->
+    <meta name="description" content="Expense Tracker PWA — Track your daily expenses offline" />
+
+    <!-- PWA: Apple touch icon for iOS home screen -->
+    <link rel="apple-touch-icon" href="/icon-192x192.png" />
+
+    <!-- PWA: Web App Manifest — required for installability -->
+    <!-- This tells the browser about your app (name, icons, start URL, display mode) -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/icon-192x192.png" />
+
+    <title>Expense Tracker PWA</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
